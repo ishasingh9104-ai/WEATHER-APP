@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+/* 🔝 Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  margin: 0; /* remove any extra gap */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  color: #0a0a0a;
+  padding: 18px 0;
+
+  background: linear-gradient(135deg, #f6f6f8, #ebe267);
+
+  box-shadow: none; /* no box effect */
+  border-radius: 0;
+
+  z-index: 1000;
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .header {
+    font-size: 20px;
+    padding: 14px 0;
+  }
+}
